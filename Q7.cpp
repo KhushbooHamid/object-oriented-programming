@@ -1,16 +1,14 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int len,bth;
-    cout<<"enter length and breadth";
-    cin>>len>>bth;
-    int area=len*bth;
-    int perimeter=len+bth;
-    if(area>perimeter){
-        cout<<"area is greater than perimeter";
+int main()
+{
+    int i,j;
+    for(i=1;i<=20;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            cout<<"X";
+        }
+        cout<<endl;
     }
-    else{
-        cout<<"area is less than perimeter";
-    }
-
 }
